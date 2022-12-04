@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "qubgrademe_reverseproxy": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7168"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30686,
+      "useSSL": false
+    }
+  }
+}

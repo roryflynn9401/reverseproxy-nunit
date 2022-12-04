@@ -1,0 +1,20 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.1.1",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "route": "v1/proxy-service/{service}/{id?}",
+      "methods": [
+        "get",
+        "put",
+        "post"
+      ],
+      "authLevel": "anonymous",
+      "name": "req"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/qubgrademe-reverseproxy.dll",
+  "entryPoint": "qubgrademe_reverseproxy.ReverseProxy.Run"
+}

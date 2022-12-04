@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ActiveDebugProfile>qubgrademe_reverseproxy</ActiveDebugProfile>
+    <_LastSelectedProfileId>C:\Users\RoryF\Desktop\Assigments\CSC3065\Assignment 2\reverseproxy\qubgrademe-reverseproxy\Properties\PublishProfiles\qubgrademe-reverseproxy.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
